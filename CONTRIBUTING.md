@@ -79,7 +79,7 @@
 
 1. **回译机制不能删。** `currentText()` / `QLineEdit.text()` 必须把原文还给
    程序内部，否则分析、面型编辑、优化变量会静默失效。详见
-   [项目介绍](https://github.com/Kino2315/optiland-zh/blob/main/docs/intro.md)
+   [项目介绍](https://github.com/Karos03/optiland-zh/blob/main/docs/intro.md)
    里「最难的部分：文字就是逻辑键」一节。
 2. **`itemText()` 故意不打补丁。** Qt 用它渲染下拉列表。要动它之前先想清楚
    列表显示怎么办。
@@ -211,7 +211,7 @@ PyPI → Account settings → [Publishing](https://pypi.org/manage/account/publi
 | 字段 | 值 |
 |---|---|
 | PyPI Project Name | `optiland-gui-zh` |
-| Owner | `Kino2315` |
+| Owner | `Karos03` |
 | Repository name | `optiland-zh` |
 | Workflow name | `release.yml`（**文件名，不是 workflow 的显示名 `Release`**） |
 | Environment name | `pypi` |

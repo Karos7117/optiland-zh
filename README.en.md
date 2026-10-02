@@ -6,16 +6,16 @@
 code — at startup it swaps the English on screen for Chinese. So Optiland itself
 has to be installed separately (see "Installation" below).
 
-English | [中文](https://github.com/Kino2315/optiland-zh/blob/main/README.md)
+English | [中文](https://github.com/Karos03/optiland-zh/blob/main/README.md)
 
-![screenshot](https://raw.githubusercontent.com/Kino2315/optiland-zh/main/docs/screenshot-zh.png)
+![screenshot](https://raw.githubusercontent.com/Karos03/optiland-zh/main/docs/screenshot-zh.png)
 
 > This package localizes a Chinese-facing application, so **the tools' own console
 > output is in Chinese.** Sample output below is reproduced verbatim.
 >
 > For the **story behind the project and the technical points worth reading** (text
 > doubles as a logic key, six traps found the hard way, how to review a coverage
-> number), read the [project introduction](https://github.com/Kino2315/optiland-zh/blob/main/docs/intro.md) (Chinese).
+> number), read the [project introduction](https://github.com/Karos03/optiland-zh/blob/main/docs/intro.md) (Chinese).
 
 ## What this is
 
@@ -81,7 +81,7 @@ If you want to read the code or contribute:
 
 ```sh
 pip install "optiland[gui]"
-git clone https://github.com/Kino2315/optiland-zh
+git clone https://github.com/Karos03/optiland-zh
 cd optiland-zh
 pip install .
 ```
@@ -89,7 +89,7 @@ pip install .
 ### 3. Development
 
 ```sh
-git clone https://github.com/Kino2315/optiland-zh
+git clone https://github.com/Karos03/optiland-zh
 cd optiland-zh
 pip install -e ".[dev]"     # -e is editable: edits take effect at once, no reinstall
 pytest -q
@@ -199,7 +199,7 @@ templates do the matching.
 3. Translate `entries` and the `replace` side of `patterns` (**never touch `match`**)
 4. Run `optiland-zh -l <your language> --coverage` and look at the coverage.
 
-See [CONTRIBUTING.md](https://github.com/Kino2315/optiland-zh/blob/main/CONTRIBUTING.md) for details.
+See [CONTRIBUTING.md](https://github.com/Karos03/optiland-zh/blob/main/CONTRIBUTING.md) for details.
 
 #### Added after an upgrade
 
@@ -412,7 +412,7 @@ runtime widgets — one string can appear on dozens of widgets, and text assembl
 runtime does not exist in the source at all.
 
 **How the buckets are defined, and how to audit these numbers yourself**, is in the
-[project introduction](https://github.com/Kino2315/optiland-zh/blob/main/docs/intro.md) (Chinese).
+[project introduction](https://github.com/Karos03/optiland-zh/blob/main/docs/intro.md) (Chinese).
 
 **Want to see which nodes are in one bucket?**
 
@@ -460,15 +460,15 @@ MISS:patch-not-fired     MISS:still-translatable  MISS:not-translatable
 
 ## License
 
-MIT — see [LICENSE](https://github.com/Kino2315/optiland-zh/blob/main/LICENSE).
+MIT — see [LICENSE](https://github.com/Karos03/optiland-zh/blob/main/LICENSE).
 
 [Optiland](https://github.com/optiland/optiland) itself is MIT as well
 (Copyright © 2024 Kramer Harrison). This project works by patching at runtime; it
 neither distributes nor modifies Optiland's source. Third-party components and the
 sources of terminology are documented in
-[NOTICE.md](https://github.com/Kino2315/optiland-zh/blob/main/NOTICE.md).
+[NOTICE.md](https://github.com/Karos03/optiland-zh/blob/main/NOTICE.md).
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/Kino2315/optiland-zh/blob/main/CONTRIBUTING.md).
+See [CONTRIBUTING.md](https://github.com/Karos03/optiland-zh/blob/main/CONTRIBUTING.md).
 Both **new languages** and **additional entries** are welcome.
