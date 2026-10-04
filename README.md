@@ -5,12 +5,12 @@
 **把 Optiland 的界面变成中文。** 它不改 Optiland 的代码，只在程序启动的时候把界面上的
 英文换成中文 —— 所以 Optiland 本体要另外装（见下面「安装」）。
 
-[English](https://github.com/Karos03/optiland-zh/blob/main/README.en.md) | 中文
+[English](https://github.com/karoskino/optiland-zh/blob/main/README.en.md) | 中文
 
-![效果](https://raw.githubusercontent.com/Karos03/optiland-zh/main/docs/screenshot-zh.png)
+![效果](https://raw.githubusercontent.com/karoskino/optiland-zh/main/docs/screenshot-zh.png)
 
 > 想看这个项目的**来龙去脉和技术看点**（文字即逻辑键的陷阱、六个实测踩坑、
-> 覆盖率数字该怎么审查），读 [项目介绍](https://github.com/Karos03/optiland-zh/blob/main/docs/intro.md)。
+> 覆盖率数字该怎么审查），读 [项目介绍](https://github.com/karoskino/optiland-zh/blob/main/docs/intro.md)。
 
 ## 这是什么
 
@@ -69,7 +69,7 @@ optiland-zh --install-shortcut
 
 ```sh
 pip install "optiland[gui]"
-git clone https://github.com/Karos03/optiland-zh
+git clone https://github.com/karoskino/optiland-zh
 cd optiland-zh
 pip install .
 ```
@@ -77,7 +77,7 @@ pip install .
 ### 三、开发
 
 ```sh
-git clone https://github.com/Karos03/optiland-zh
+git clone https://github.com/karoskino/optiland-zh
 cd optiland-zh
 pip install -e ".[dev]"     # -e 是 editable：改完代码立刻生效，不用重装
 pytest -q
@@ -179,7 +179,7 @@ main()
 3. 翻译 `entries` 和 `patterns` 的 `replace`（**不要动 `match`**）
 4. 跑 `optiland-zh -l <你的语言> --coverage` 看覆盖率。
 
-详见 [CONTRIBUTING.md](https://github.com/Karos03/optiland-zh/blob/main/CONTRIBUTING.md)
+详见 [CONTRIBUTING.md](https://github.com/karoskino/optiland-zh/blob/main/CONTRIBUTING.md)
 
 #### 更新后补充
 
@@ -365,7 +365,7 @@ optiland-zh --self-test   # 我翻过的地方还生效吗（只抽样 7 个点�
 几十个控件上，而运行时拼出来的文字在源码里根本不存在。
 
 **分档是怎么定的、这些数字该怎么自己审**，写在
-[项目介绍](https://github.com/Karos03/optiland-zh/blob/main/docs/intro.md)里。
+[项目介绍](https://github.com/karoskino/optiland-zh/blob/main/docs/intro.md)里。
 
 **想看某一档具体是哪些节点：**
 
@@ -410,12 +410,12 @@ MISS:patch-not-fired     MISS:still-translatable  MISS:not-translatable
 
 ## 许可
 
-MIT，见 [LICENSE](https://github.com/Karos03/optiland-zh/blob/main/LICENSE)。
+MIT，见 [LICENSE](https://github.com/karoskino/optiland-zh/blob/main/LICENSE)。
 
 Optiland 本体同为 MIT
 （Copyright © 2024 Kramer Harrison）。本项目通过运行期进行补丁工作，不分发也不修改
-其源码。第三方组件与术语来源的说明见 [NOTICE.md](https://github.com/Karos03/optiland-zh/blob/main/NOTICE.md)。
+其源码。第三方组件与术语来源的说明见 [NOTICE.md](https://github.com/karoskino/optiland-zh/blob/main/NOTICE.md)。
 
 ## 贡献
 
-见 [CONTRIBUTING.md](https://github.com/Karos03/optiland-zh/blob/main/CONTRIBUTING.md)。可做 **新增语言** 和 **补充词条** 的贡献。
+见 [CONTRIBUTING.md](https://github.com/karoskino/optiland-zh/blob/main/CONTRIBUTING.md)。可做 **新增语言** 和 **补充词条** 的贡献。
