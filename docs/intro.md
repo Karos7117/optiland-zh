@@ -2,7 +2,7 @@
 
 > 一份关于 `optiland-zh` 的介绍。项目地址见文末。
 
-![汉化后的界面](https://raw.githubusercontent.com/Karos7117/optiland-zh/main/docs/screenshot-zh.png)
+![汉化后的界面](https://raw.githubusercontent.com/Koyumi17/optiland-zh/main/docs/screenshot-zh.png)
 
 ## 先说这个东西是什么
 

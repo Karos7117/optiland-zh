@@ -62,10 +62,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Karos7117/optiland-zh"
-Repository = "https://github.com/Karos7117/optiland-zh"
-Issues = "https://github.com/Karos7117/optiland-zh/issues"
-Changelog = "https://github.com/Karos7117/optiland-zh/releases"
+Homepage = "https://github.com/Koyumi17/optiland-zh"
+Repository = "https://github.com/Koyumi17/optiland-zh"
+Issues = "https://github.com/Koyumi17/optiland-zh/issues"
+Changelog = "https://github.com/Koyumi17/optiland-zh/releases"
 
 [project.scripts]
 optiland-zh = "optiland_zh.launcher:main"
